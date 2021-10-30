@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US" dir="ltr">
     <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Brian Cho's website">
+
+
         <title>Brian Cho's WIP Website</title>
     </head>
     <body>
+        <header>
         <h1>Hello Everyone!</h1>
+    </header>
         <p>I'm just trying to learn html and stuff.</p>
         <p>If you know anything about web development, maybe hit me up?</p>
 
@@ -107,5 +113,142 @@
 
         <h2>Link to index.html in folder Folder</h2>
             <a href="Folder">here to Folder</a>
+
+        <h2>Adding images</h2>
+
+            <img src="Images/what.png" alt="some Spanish meme" width=400 height=400>
+            <br>
+            <figure>
+            <img src="Images/SC1.gif" alt="Erin yeet" width=32 height=64>
+            <img src="Images/SC2.gif" alt="Erin die" width=32 height=64>
+            <img src="Images/SC1.gif" alt="Erin yeet" width=64 height=128>
+            <img src="Images/SC2.gif" alt="Erin die" width=64 height=128>
+            <img src="Images/SC1.gif" alt="Erin yeet" width=128 height=256>
+            <img src="Images/SC2.gif" alt="Erin die" width=128 height=256>
+            <figcaption>Sprite animations I did for my game 
+                <i><a href="https://chobbri.itch.io/starlight-chemistry" target="_blank">Starlight Chemistry</a></i>!
+            </figcaption>
+            </figure>
+            <p>It's very buggy and bad but it's still there.</p>
+            <p>also I have no idea why the second animation looks so weird</p>
+
+            <!-- <img srcset="blah1.jpg 1x,
+                blah2.jpg 2x, blah3.jpg 3x ,...."
+            Responsive images but I don't like being responsible-->
+
+            <img src="Images/sister.png"
+            alt="?"
+            width=500 height=500
+             srcset="Images/sister.png 960w,
+                     Images/TingHuDithered.png 1920w"
+             sizes="(max-width: 960px) 480px,
+                    960px"
+            >
+
+            <!--uhh future me, figure out the diff btwn srcset and sizes-->
+            
+            <picture>
+                <source media="(min-width:600px)" srcset="Images/Shark.jpg">
+
+                <img src="Images/drkawashima.jpg"
+                alt="dr. kawashima"
+                width=500 height=500
+                >
+            </picture>
+
+            <h2> Adios</h2>
+            <p>I think my favourite track that I composed</p>
+            <audio controls>
+                <source src="Audio/Some Adventure Theme.mp3">
+                Whoops, I guess you can't hear it then
+            </audio>
+            
+            <h2>vod</h2>
+            <video controls width="400" height="800">
+                <source src="Videos/worm.mp4">
+                <track src=""
+                kind="captions"
+                label="english"
+                srclang="en"
+                default>
+                Whoops!
+            </video>
+            
+            <h2> embed </h2>
+            <iframe width="560" height="315" 
+            src="https://www.youtube-nocookie.com/embed/soH0LgIjIV8" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+            </iframe>
+            <p>The soundtrack I composed for my game!</p>
+            <p>grossly mixed tho</p>
+
+            <h2>Using forms</h2>
+            <form>
+                <label>Name
+                <input name="name" placeholder="your name" required>
+                </label>
+                <label>Email
+                <input name="email" type="email" placeholder="me@example.com">
+                </label>
+                <label>Password
+                <input name="password" type="password" placeholder="password">
+                </label>
+                <label>Search
+                <input name="search" type="search" placeholder="search">
+                </label>
+                <label>Phone Number
+                <input name="phone number" type="tel" placeholder="phone number">
+                </label>
+                <label>Text Area
+                <textarea name="text area" placeholder="type here"></textarea>
+                </label>
+                <label>Date
+                <input name="date" type="date">
+                </label>
+                <label>Color
+                <input name="color" type="color">
+                </label>
+                <label>File
+                <input name="file" type="file" accept="image/*" multiple>
+                </label>
+                <button type="submit">Send!</button>
+            </form>
+
+            <h2>TablEs</h2>
+            
+            <table>
+                <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a ^ b</th>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                </tr>
+            </table>
+
+            <footer>
+            <a href="https://www.youtube.com/channel/UCO_l-XKKyQtxFEQGZCjzzBQ">Youtube</a>
+            <a href="https://chobbri.itch.io/">itch.io</a>
+            </footer>
     </body>
 </html>
