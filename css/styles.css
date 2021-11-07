@@ -23,6 +23,7 @@ a:hover {
 header {
     background: #2F3061;
     color: #f7fff7;
+    font-family: sans-serif;
 }
 /* Projects
 -----------------------------------------------*/
@@ -57,6 +58,7 @@ header {
 -----------------------------------------------*/
 .work-experience{
     background: #a1c6d7;
+    
 }
 /* Education
 -----------------------------------------------*/
