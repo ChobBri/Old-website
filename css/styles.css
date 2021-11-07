@@ -1,0 +1,96 @@
+/* Global
+-----------------------------------------------*/
+body {
+    color: #343434;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #ffe66d;
+}
+a:hover {
+    text-decoration: none;
+}
+.content-wrap {
+    /* background:red; */
+    width: 900px;
+    margin: 0 auto; 
+    padding:60px 0;
+}
+
+/* Profile
+-----------------------------------------------*/
+header {
+    background: #2F3061;
+    color: #f7fff7;
+}
+/* Projects
+-----------------------------------------------*/
+.personal-projects {
+    background: #f7fff7;
+}
+.personal-projects img {
+    width: 256px;
+    height: 256px;
+}
+.personal-projects a{
+    color: #f7fff7;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+}
+.personal-projects .btn {
+    color: #f7fff7;
+    background: #2f3061;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.personal-projects .btn:hover {
+    color: #f7fff7;
+    background:rgb(47, 48, 97, 80%);
+    text-decoration: none;
+    padding: 8px;
+}
+
+/* Work Experience
+-----------------------------------------------*/
+.work-experience{
+    background: #a1c6d7;
+}
+/* Education
+-----------------------------------------------*/
+
+/* Contact Info
+-----------------------------------------------*/
+footer {
+    background: #343434;
+    color: #f7fff7;
+}
+
+footer a {
+    
+}
+
+footer a:hover {
+    background: rgb(47, 48, 97, 80%);
+}
+/* Anything
+---------------------------------------*/
+
+.anything div {
+    background: red;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+.first{
+    margin: 0px;
+}
+.second{
+    margin:0;
+}
+.anything span {
+    background: blue;
+    border: 1px solid black;
+}
