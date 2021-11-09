@@ -1,5 +1,11 @@
 /* Global
 -----------------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     color: #343434;
     margin: 0;
@@ -27,24 +33,60 @@ header {
 }
 /* Projects
 -----------------------------------------------*/
+.flex-container {
+    display: flex;
+}
+.flex-item p a{
+    background:none;
+    color: #343434;
+    text-decoration: underline;
+}
+.flex-item {
+    flex: 0 1 auto;
+}
+
+#music-projects .flex-item {
+    padding-bottom: 10px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+}
+.project-item {
+    overflow: hidden;
+}
+.project-item img {
+    margin: 10px;
+    float: left;
+}
+.project-item .btn {
+    display: block;
+    clear: both;
+}
 .personal-projects {
     background: #f7fff7;
+}
+.personal-projects h3{
+    margin-top: 0px;
 }
 .personal-projects img {
     width: 256px;
     height: 256px;
+    background: #2F3061;
+    padding: 10px;
+    margin: 0;
+    margin-right: 20px;
 }
 .personal-projects a{
     color: #f7fff7;
     background: #2f3061;
     text-decoration: none;
-    padding: 8px;
 }
 .personal-projects .btn {
     color: #f7fff7;
     background: #2f3061;
     text-decoration: none;
     padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .personal-projects .btn:hover {
@@ -71,7 +113,7 @@ footer {
 }
 
 footer a {
-    
+    margin-left: 2px;
 }
 
 footer a:hover {
